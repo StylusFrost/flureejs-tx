@@ -10,15 +10,15 @@
     "@babel/highlight" "^7.10.4"
 
 "@babel/core@^7.7.5":
-  version "7.11.1"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.1.tgz#2c55b604e73a40dc21b0e52650b11c65cf276643"
-  integrity sha512-XqF7F6FWQdKGGWAzGELL+aCO1p+lRY5Tj5/tbT3St1G8NaH70jhhDIKknIZaDans0OQBG5wRAldROLHSt44BgQ==
+  version "7.11.4"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.4.tgz#4301dfdfafa01eeb97f1896c5501a3f0655d4229"
+  integrity sha512-5deljj5HlqRXN+5oJTY7Zs37iH3z3b++KjiKtIsJy1NrjOOVSEaJHEetLBhyu0aQOSNNZ/0IuEAan9GzRuDXHg==
   dependencies:
     "@babel/code-frame" "^7.10.4"
-    "@babel/generator" "^7.11.0"
+    "@babel/generator" "^7.11.4"
     "@babel/helper-module-transforms" "^7.11.0"
     "@babel/helpers" "^7.10.4"
-    "@babel/parser" "^7.11.1"
+    "@babel/parser" "^7.11.4"
     "@babel/template" "^7.10.4"
     "@babel/traverse" "^7.11.0"
     "@babel/types" "^7.11.0"
@@ -31,10 +31,10 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.11.0":
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.11.0.tgz#4b90c78d8c12825024568cbe83ee6c9af193585c"
-  integrity sha512-fEm3Uzw7Mc9Xi//qU20cBKatTfs2aOtKqmvy/Vm7RkJEGFQ4xc9myCfbXxqK//ZS8MR/ciOHw6meGASJuKmDfQ==
+"@babel/generator@^7.11.0", "@babel/generator@^7.11.4":
+  version "7.11.4"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.11.4.tgz#1ec7eec00defba5d6f83e50e3ee72ae2fee482be"
+  integrity sha512-Rn26vueFx0eOoz7iifCN2UHT6rGtnkSGWSoDRIy8jZN3B91PzeSULbswfLoOWuTuAcNwpG/mxy+uCTDnZ9Mp1g==
   dependencies:
     "@babel/types" "^7.11.0"
     jsesc "^2.5.1"
@@ -138,10 +138,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.10.4", "@babel/parser@^7.11.0", "@babel/parser@^7.11.1":
-  version "7.11.3"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.3.tgz#9e1eae46738bcd08e23e867bab43e7b95299a8f9"
-  integrity sha512-REo8xv7+sDxkKvoxEywIdsNFiZLybwdI7hcT5uEPyQrSMB4YQ973BfC9OOrD/81MaIjh6UxdulIQXkjmiH3PcA==
+"@babel/parser@^7.10.4", "@babel/parser@^7.11.0", "@babel/parser@^7.11.4":
+  version "7.11.4"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.4.tgz#6fa1a118b8b0d80d0267b719213dc947e88cc0ca"
+  integrity sha512-MggwidiH+E9j5Sh8pbrX5sJvMcsqS5o+7iB42M9/k0CD63MjYbdP4nhSh7uB5wnv2/RVzTZFTxzF/kIa5mrCqA==
 
 "@babel/template@^7.10.4":
   version "7.10.4"
@@ -176,26 +176,6 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@ethereumjs/config-nyc@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@ethereumjs/config-nyc/-/config-nyc-1.1.1.tgz#56a574ed9d799f7cd1b9aeb79401cd7d45625af6"
-  integrity sha512-R5OlffNms1Ae8I/OXf8BJ/fUzpRrL3XkQaBm19Yaq4BoeSNR9qgBkMEbhxaMwvinwENsf8Z9XP6YKHT3kvckkw==
-
-"@ethereumjs/config-prettier@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@ethereumjs/config-prettier/-/config-prettier-1.1.1.tgz#2971e374c6c69ab11562a8d6482189f3d397207f"
-  integrity sha512-ue3mZWRBE1nvUwamlwaYyBcRmTILbXgu9H0f1fBqOS9e5XDOFbVLX/prPdyrAqQEXvJf/Qs6kTVqXv3Yd8zBGQ==
-
-"@ethereumjs/config-tsc@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@ethereumjs/config-tsc/-/config-tsc-1.1.1.tgz#e2755f16f4e0ee793029f19a9bc1a41dd833aba0"
-  integrity sha512-3ye6Nb+csMMSjUzY+AweIZW7FvrSGG694MJEkI/Ti2iBCt+iXLzO5BAs1c9Bl+QZcpYuaupgrV/iHr8MXL07WQ==
-
-"@ethereumjs/config-tslint@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@ethereumjs/config-tslint/-/config-tslint-1.1.1.tgz#dc9f15aacaf2f792de96eba75f78fce4360324bb"
-  integrity sha512-3Z6M16l20rDRptCOFuKxsn9uypkdNE+5S768ICSbe5KgoyPLjPiHRaSdo76FkFwK5JO6X1Cx5+3tbyDUMBb1jA==
-
 "@fluree/crypto-base@^0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@fluree/crypto-base/-/crypto-base-0.1.6.tgz#036d112ca14b4a849b09c7a0ff8dcfef677b2559"
@@ -203,6 +183,26 @@
   dependencies:
     scrypt-js "2.0.4"
     sha3 "2.0.6"
+
+"@flureejs/config-coverage@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@flureejs/config-coverage/-/config-coverage-0.1.5.tgz#3eecb4405c4f70be1ae25ec410a6f3b1ef4e3b5e"
+  integrity sha512-r759VPKY1yop0lEIiu69tRQUQPASN2u7ueRJm2IfczTSqSS5QBOpb2TPnmNbpwHZbfGeXFlAeYGqw29honTKvQ==
+
+"@flureejs/config-format@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@flureejs/config-format/-/config-format-0.1.5.tgz#89840e4128c87568cec129cadc5c8c880bc2f986"
+  integrity sha512-3I9XzgTG1xPYBsDpCM2ZXOIaf+j+7IvM+PKRLDfFwcPrnOPip20XK9UWfPJVoZjGLeR9pV4ai/RY7nMdpm4pOw==
+
+"@flureejs/config-tslint@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@flureejs/config-tslint/-/config-tslint-0.1.5.tgz#0852716a6a54ee7ba3db28a5f0cec47a295d0aea"
+  integrity sha512-XueejlkeXSK8dD1nAWJHkzWy3292QicSvu3CSpKeOjC361WqYMjwPFbcXRtUFJgSGSlGVRBoyYOwNyz3HcYzDg==
+
+"@flureejs/config-typescript@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@flureejs/config-typescript/-/config-typescript-0.1.6.tgz#0396ecae3a7bf1daf80dda5bd58e1aca41592fa1"
+  integrity sha512-Y6o9Fu36BbARiu4Nvx1BzQCFz4pxLJzbJ4+nxyLBRZaPhIclf/uQwRLsxjEDYIYQOqWbQ/m5kA4e1TJOFlV5jw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -354,9 +354,9 @@ after@0.8.2:
   integrity sha1-/ts5T58OAqqXaOcCvaI7UF+ufh8=
 
 aggregate-error@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-3.0.1.tgz#db2fe7246e536f40d9b5442a39e117d7dd6a24e0"
-  integrity sha512-quoaXsZ9/BLNae5yiNoUz+Nhkwz83GhWwtYFglcjEQB2NDHCIpApbqXxIFnm4Pq/Nvhrsq5sYJFyohrrxnTGAA==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
+  integrity sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==
   dependencies:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
@@ -1431,9 +1431,9 @@ esutils@^2.0.2:
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
 eventemitter3@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.4.tgz#b5463ace635a083d018bdc7c917b4c5f10a85384"
-  integrity sha512-rlaVLnVxtxvoyLsQQFBx53YmXHDxRIzzTLbdfxqi4yocpSjAxXwkU0cScM5JgSKMqEhrZpnvQ2D9gjylR0AimQ==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.5.tgz#51d81e4f1ccc8311a04f0c20121ea824377ea6d9"
+  integrity sha512-QR0rh0YiPuxuDQ6+T9GAO/xWTExXpxIes1Nl9RykNGTnE1HJmkuEfxJH9cubjIOQZ/GH4qNBR4u8VSHaKiWs4g==
 
 events@^3.2.0:
   version "3.2.0"
@@ -1552,10 +1552,10 @@ flatted@^2.0.1, flatted@^2.0.2:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
 
-flureejs-utils@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/flureejs-utils/-/flureejs-utils-0.1.7.tgz#4198c5d8e53e7f6cad8497f4eddbb3762bc57acd"
-  integrity sha512-kweV5/0iFeJNSrOt1tplowf3l6TgarFLOK6+HfGGnyOlAGImr3/eblEMqFAgPMaLncDlEkxzQOrVFpZ6fD1YLg==
+flureejs-utils@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/flureejs-utils/-/flureejs-utils-0.1.8.tgz#8f503e331633f47cbfbcf62795c68ccb2b4993d7"
+  integrity sha512-lFKUvW+QPG3WAzCSOo7mM0yARhDzGbtu1n0aD5WcoYcDYLMWpZyum1ovz3TB7T7KqqYId2u0CkpoTrlOtA6OVA==
   dependencies:
     "@fluree/crypto-base" "^0.1.6"
     "@types/bn.js" "^4.11.3"
@@ -2257,6 +2257,11 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
+json-parse-even-better-errors@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.0.tgz#371873c5ffa44304a6ba12419bcfa95f404ae081"
+  integrity sha512-o3aP+RsWDJZayj1SbHNQAI8x0v3T3SKiGoZlNYfbUP1S3omJQ6i9CnqADqkSPaOAxwua4/1YWx5CM7oiChJt2Q==
+
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
@@ -2883,13 +2888,13 @@ parse-json@^4.0.0:
     json-parse-better-errors "^1.0.1"
 
 parse-json@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.0.1.tgz#7cfe35c1ccd641bce3981467e6c2ece61b3b3878"
-  integrity sha512-ztoZ4/DYeXQq4E21v169sC8qWINGpcosGv9XhTDvg9/hWvx/zrFkc9BiWxR58OJLHGk28j5BL0SDLeV2WmFZlQ==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.1.0.tgz#f96088cdf24a8faa9aea9a009f2d9d942c999646"
+  integrity sha512-+mi/lmVVNKFNVyLXV31ERiy2CY5E1/F6QtJFEzoChPRwwngMNXRDQ9GJ5WdE2Z2P4AujsOi0/+2qHID68KwfIQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     error-ex "^1.3.1"
-    json-parse-better-errors "^1.0.1"
+    json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
 parse5@4.0.0:
