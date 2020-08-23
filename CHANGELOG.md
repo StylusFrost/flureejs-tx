@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 - Changes for use flureejs-config package
 - Documentation and test improvements
 
-[0.1.1]: https://github.com/StylusFrost/flureejs-utils/compare/v0.1.0...v0.1.1
+[0.1.1]: https://github.com/StylusFrost/flureejs-tx/compare/v0.1.0...v0.1.1
 
 ## [0.1.0] - 2020-08-21
 
