@@ -31,7 +31,7 @@
 
 **● auth**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:39_
+_Defined in [types.ts:38](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L38)_
 
 ---
 
@@ -41,7 +41,7 @@ _Defined in types.ts:39_
 
 **● db**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:28_
+_Defined in [types.ts:27](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L27)_
 
 ---
 
@@ -51,7 +51,7 @@ _Defined in types.ts:28_
 
 **● expire**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:56_
+_Defined in [types.ts:54](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L54)_
 
 ---
 
@@ -61,7 +61,7 @@ _Defined in types.ts:56_
 
 **● fuel**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:45_
+_Defined in [types.ts:44](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L44)_
 
 ---
 
@@ -71,7 +71,7 @@ _Defined in types.ts:45_
 
 **● nonce**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:51_
+_Defined in [types.ts:49](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L49)_
 
 ---
 
@@ -81,7 +81,7 @@ _Defined in types.ts:51_
 
 **● r**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:66_
+_Defined in [types.ts:64](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L64)_
 
 ---
 
@@ -91,7 +91,7 @@ _Defined in types.ts:66_
 
 **● s**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:71_
+_Defined in [types.ts:69](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L69)_
 
 ---
 
@@ -101,7 +101,7 @@ _Defined in types.ts:71_
 
 **● tx**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:33_
+_Defined in [types.ts:32](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L32)_
 
 ---
 
@@ -111,7 +111,7 @@ _Defined in types.ts:33_
 
 **● type**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:23_
+_Defined in [types.ts:22](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L22)_
 
 ---
 
@@ -121,6 +121,6 @@ _Defined in types.ts:23_
 
 **● v**: _[BufferLike](../#bufferlike)_
 
-_Defined in types.ts:61_
+_Defined in [types.ts:59](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/types.ts#L59)_
 
 ---

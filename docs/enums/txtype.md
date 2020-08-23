@@ -18,6 +18,6 @@
 
 **TX**: = "tx"
 
-_Defined in index.ts:13_
+_Defined in [index.ts:13](https://github.com/StylusFrost/flureejs-tx/blob/bc1a586/src/index.ts#L13)_
 
 ---
