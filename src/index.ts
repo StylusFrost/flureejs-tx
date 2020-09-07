@@ -189,19 +189,9 @@ export default class Transaction {
    * Determines if the signature is valid
    */
   verifySignature(): boolean {
-    const cmd = JSON.stringify({
-      type: this.type.toString(),
-      db: this.db.toString(),
-      tx: JSON.parse(this.tx.toString()),
-      auth: this.auth.toString(),
-      fuel: new BN(this.fuel, 'hex').toNumber(),
-      nonce: new BN(this.nonce, 'hex').toNumber(),
-      expire: new BN(this.expire, 'hex').toNumber(),
-    })
-
     try {
       const v = bufferToInt(this.v)
-      this._senderPubKey = ecrecover(Buffer.from(cmd), v, this.r, this.s)
+      this._senderPubKey = ecrecover(this.cmd(), v, this.r, this.s)
     } catch (e) {
       return false
     }
@@ -233,18 +223,41 @@ export default class Transaction {
    */
 
   sign(privateKey: Buffer) {
-    const cmd = JSON.stringify({
-      type: this.type.toString(),
-      db: this.db.toString(),
-      tx: JSON.parse(this.tx.toString()),
-      auth: this.auth.toString(),
-      fuel: new BN(this.fuel, 'hex').toNumber(),
-      nonce: new BN(this.nonce, 'hex').toNumber(),
-      expire: new BN(this.expire, 'hex').toNumber(),
-    })
-
-    const sig = ecsign(Buffer.from(cmd), privateKey)
-
+    const sig = ecsign(this.cmd(), privateKey)
     Object.assign(this, sig)
+  }
+  public cmd(): Buffer {
+    return Buffer.from(
+      JSON.stringify({
+        type: this.type.toString(),
+        db: this.db.toString(),
+        tx: JSON.parse(this.tx.toString()),
+        auth: this.auth.toString(),
+        fuel: new BN(this.fuel, 'hex').toNumber(),
+        nonce: new BN(this.nonce, 'hex').toNumber(),
+        expire: new BN(this.expire, 'hex').toNumber(),
+      }),
+    )
+  }
+
+  public signature(): Buffer {
+    const newR = this.r[0] & 0x80 ? Buffer.concat([hexToUnit8Array('00'), this.r]) : this.r
+    const newS = this.s[0] & 0x80 ? Buffer.concat([hexToUnit8Array('00'), this.s]) : this.s
+    const result =
+      '02' +
+      newR.length.toString(16) +
+      newR.toString('hex') +
+      '02' +
+      newS.length.toString(16) +
+      newS.toString('hex')
+
+    return Buffer.from(
+      this.v.toString('hex') + '30' + Buffer.from(result, 'hex').length.toString(16) + result,
+      'hex',
+    )
+
+    function hexToUnit8Array(str: string) {
+      return new Uint8Array(Buffer.from(str, 'hex'))
+    }
   }
 }
