@@ -22,7 +22,7 @@
 
 ▸ **toBuffer**(): `Buffer`
 
-_Defined in [types.ts:5](https://github.com/StylusFrost/flureejs-tx/blob/a5da95f/src/types.ts#L5)_
+_Defined in [types.ts:5](https://github.com/StylusFrost/flureejs-tx/blob/7429029/src/types.ts#L5)_
 
 **Returns:** `Buffer`
 
